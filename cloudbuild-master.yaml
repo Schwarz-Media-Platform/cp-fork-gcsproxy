@@ -24,6 +24,7 @@ steps:
   - 'DOCKER_REPO=europe-west3-docker.pkg.dev/${PROJECT_ID}/docker-main'
   - 'src_version=${SHORT_SHA}-sha'
   - 'app_name=${_SERVICE_NAME}'
+  - 'repo_name=cp-fork-gcsproxy'
   - 'app_images=app_name'
   - 'target_version=${_TARGET_VERSION}'
   args:
