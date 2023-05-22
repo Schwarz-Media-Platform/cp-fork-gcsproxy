@@ -36,5 +36,5 @@ steps:
 
 availableSecrets:
   secretManager:
-  - versionName: projects/$PROJECT_ID/secrets/github-token-rw/versions/latest
+  - versionName: projects/$PROJECT_ID/secrets/github-fine-token-rw/versions/latest
     env: 'GITHUB_TOKEN'
